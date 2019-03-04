@@ -108,11 +108,11 @@ contract FixedSupplyToken is ERC20Interface {
     }
     // ===================================================================
 
-    function getLuckyCoin() public constant returns (uint256) { //取得當前交易能得到的LuckyCoin
+    function getLuckyCoin() public constant returns (uint256) { //The amount of LuckyCoin that the current transaction get.
         return luckyCoin;
     }
     
-    function getTotalLuckyCoin() public constant returns (uint256) { //取得目前累積的Luckycoin
+    function getTotalLuckyCoin() public constant returns (uint256) { //Get the current accumulated Luckycoin
         return TotalLCoin;
     }
 
